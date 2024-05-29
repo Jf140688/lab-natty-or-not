@@ -1,51 +1,72 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
+# *IA Para Auxiliar Deficiência Auditiva*
 
-## 🚀 Introdução
+## *Objetivo do Projeto*
+Desenvolver uma solução de IA que facilite a comunicação e a acessibilidade para pessoas com deficiência auditiva. O sistema pode incluir recursos como tradução de fala para texto, reconhecimento de linguagem de sinais e notificações visuais para alertas sonoros.
 
-> Woooow! Look at this 👀
+## **Componentes do Projeto**
+### **1.Reconhecimento de Fala para Texto**
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+    Descrição: Um módulo que converte a fala em texto em tempo real.
+    Tecnologia: Modelos de reconhecimento de fala (como o Google Speech-to-Text, IBM Watson Speech to Text, ou tecnologias de código aberto como o Mozilla DeepSpeech).
+    Funcionalidade: Captura a fala de interlocutores e exibe o texto correspondente em uma tela ou em um aplicativo móvel.
 
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+### **2.Reconhecimento de Linguagem de Sinais**
 
-### Objetivos
+    Descrição: Um sistema que reconhece a linguagem de sinais e traduz para texto ou fala.
+    Tecnologia: Redes neurais convolucionais (CNNs) para processamento de imagem e reconhecimento de gestos, utilizando frameworks como TensorFlow ou PyTorch.
+    Funcionalidade: Uso de câmeras para captar os sinais e traduzi-los em tempo real.
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
+### **3.Notificações Visuais e Táteis**
 
-### Template
+    Descrição: Transformar alertas sonoros importantes (como alarmes de incêndio, toques de campainha) em notificações visuais (luzes piscantes) ou táteis (vibrações em dispositivos portáteis).
+    Tecnologia: Sensores de som, dispositivos IoT conectados e motores de vibração.
+    Funcionalidade: Monitorar o ambiente para sons críticos e fornecer feedback através de luzes LED ou dispositivos vibratórios.
 
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+## *Desenvolvimento do Projeto*
 
-## 📒 Descrição
-Breve descrição do seu projeto
+### **1-Pesquisa e Planejamento**
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+    Realizar pesquisas para entender as necessidades específicas da comunidade com deficiência auditiva.
+    Definir os requisitos do projeto com base nas necessidades identificadas.
 
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+### **2-Desenvolvimento de Prototipos**
 
-## 🚀 Resultados
-Apresente os resultados do seu projeto
+    Reconhecimento de Fala para Texto: Implementar uma primeira versão utilizando APIs de reconhecimento de fala.
+    Reconhecimento de Linguagem de Sinais: Treinar um modelo inicial com um conjunto de dados pequeno de vídeos de sinais.
+    Notificações Visuais e Táteis: Desenvolver um protótipo de sensor de som com LEDs e motores de vibração.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+### **3-Testes e Iterações**
 
-### Exemplos e Insigths
+    Realizar testes com usuários para obter feedback e identificar pontos de melhoria.
+    Iterar sobre o design e a funcionalidade com base no feedback recebido.
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+### **4-Implementação e Integração**
 
-## Links Interessantes
+    Integrar todos os componentes em uma solução coesa, que pode ser um aplicativo móvel ou um dispositivo autônomo.
+    Garantir que a solução seja intuitiva e fácil de usar.
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
 
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+### **5-Lançamento e Suporte**
+
+    Lançar a solução ao público, oferecendo suporte contínuo e atualizações baseadas no feedback dos usuários.
+    Criar materiais de treinamento e guias para auxiliar os usuários na utilização do sistema.
+
+## *Considerações Éticas e de Privacidade*
+Garantir a privacidade dos usuários, especialmente em relação ao processamento de dados de áudio e vídeo.
+Implementar medidas de segurança para proteger os dados coletados e processados pelo sistema.
+Envolver a comunidade de pessoas com deficiência auditiva no processo de desenvolvimento para garantir que o produto final atenda às suas necessidades e expectativas.
+
+## *Exemplos de Ferramentas e Tecnologias*
+APIs de Reconhecimento de Fala: Google Cloud Speech-to-Text, IBM Watson Speech to Text, Microsoft Azure Speech.
+Frameworks de IA: TensorFlow, PyTorch.
+Plataformas de Desenvolvimento de Aplicativos: Android Studio, Xcode para iOS.
+Hardware para Sensores e Feedback Tátil: Raspberry Pi, Arduino, sensores de som, LEDs, motores de vibração.
+
+## *Conclusão*
+Um projeto de IA voltado para pessoas com deficiência auditiva pode transformar a forma como essas pessoas interagem com o mundo ao seu redor. Ao focar em soluções práticas e acessíveis, podemos promover maior inclusão e autonomia para todos.
+
+
+
+
+
+
